@@ -8,23 +8,23 @@
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "body-parser": "~1.17.1",
+    "connect-flash": "*",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.3",
     "express": "~4.15.2",
-    "jade": "~1.11.0",
-    "morgan": "~1.8.1",
-    "serve-favicon": "~2.4.2",
-    "monk": "https://github.com/vccabral/monk.git",
-    "mongoose": "*",
-    "connect-flash": "*",
-    "express-validator": "*",
-    "express-session": "*",
     "express-messages": "*",
-    "multer": "*",
+    "express-session": "*",
+    "express-validator": "*",
+    "jade": "~1.11.0",
     "moment": "*",
+    "mongodb": "^2.2.35",
+    "mongoose": "*",
+    "monk": "https://github.com/vccabral/monk.git",
+    "morgan": "~1.8.1",
+    "multer": "*",
     "passport": "*",
     "passport-http": "*",
     "passport-local": "*",
-    "mongodb": "^1.4.4"
+    "serve-favicon": "~2.4.2"
   }
 }
