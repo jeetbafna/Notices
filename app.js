@@ -16,7 +16,7 @@ var mongoose = require('mongoose');
 var expressValidator = require('express-validator');
 
 var mongo = require('mongodb');
-var db = require('monk')('localhost/nodeblogauth');
+var db = require('monk')('mongodb://jeetbafna:password1@ds231991.mlab.com:31991/nodeblogauth');
 
 var routes = require('./routes/index');
 var posts = require('./routes/posts');
