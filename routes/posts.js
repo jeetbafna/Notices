@@ -3,7 +3,7 @@ var router = express.Router();
 var multer = require('multer');
 var upload = multer({dest : './public/images'});
 var mongo = require('mongodb');
-var db = require('monk')('localhost/nodeblogauth');
+var db = require('monk')('mongodb://jeetbafna:password1@ds231991.mlab.com:31991/nodeblogauth');
 
 router.get('/show/:id', function(req, res, next) {
   var posts = db.get('posts');

@@ -1,7 +1,7 @@
 var mongoose = require('mongoose');
 var bcrypt = require('bcryptjs');
 
-mongoose.connect('mongodb://localhost/nodeblogauth');
+mongoose.connect('mongodb://jeetbafna:password1@ds231991.mlab.com:31991/nodeblogauth');
 
 var db = mongoose.connection;
 
